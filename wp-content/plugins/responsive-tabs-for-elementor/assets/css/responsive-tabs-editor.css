@@ -1,0 +1,59 @@
+.icon-icon-tabs,
+.icon-icon-tabs-left-accordion,
+.icon-icon-tabs-right-accordion,
+.icon-icon-tabs-bottom-accordion {
+    position: relative;
+    display: block;
+    padding: 15px 0;
+}
+
+.icon-icon-tabs:before,
+.icon-icon-tabs-left-accordion:before,
+.icon-icon-tabs-right-accordion:before,
+.icon-icon-tabs-bottom-accordion:before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-icon-tabs:before {
+    background: url("../images/icon-tabs.svg") center/contain no-repeat;
+}
+
+.icon-icon-tabs-left-accordion:before {
+    background: url("../images/icon-tabs-left-accordion.svg") center/contain no-repeat;
+}
+
+.icon-icon-tabs-right-accordion:before {
+    background: url("../images/icon-tabs-right-accordion.svg") center/contain no-repeat;
+}
+
+
+.icon-icon-tabs-bottom-accordion:before {
+    background: url("../images/icon-tabs-bottom-accordion.svg") center/contain no-repeat;
+}
+
+.elementor-navigator__element__element-type .icon-icon-tabs,
+.elementor-navigator__element__element-type .icon-icon-tabs-left-accordion,
+.elementor-navigator__element__element-type .icon-icon-tabs-right-accordion,
+.elementor-navigator__element__element-type .icon-icon-tabs-bottom-accordion {
+    padding-right: 10px;
+}
+
+.elementor-navigator__element__element-type .icon-icon-tabs:before,
+.elementor-navigator__element__element-type .icon-icon-tabs-left-accordion:before,
+.elementor-navigator__element__element-type .icon-icon-tabs-right-accordion:before,
+.elementor-navigator__element__element-type .icon-icon-tabs-bottom-accordion:before {
+    width: 12px;
+    height: 12px;
+}
+
+.editor-sub-tab-title {
+    display: block;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
